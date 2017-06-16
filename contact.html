@@ -3,37 +3,49 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Index</title>
-	<link rel="stylesheet" type=text/css href="css/style.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One|Righteous" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
 </head>
+<header>
+	<div class="name"><strong>Jeffrey Nagy</strong></div>
+		<!--Links to other parts of the sitet-->
+	<div class="int">
+		<a class="int-link" href="index.html">About</a>
+		<a class="int-link" href="portfolio.html">Portfolio</a>
+		<a class="int-link" href="contact.html">Contact</a>
+	</div>
+</header>
 
 <body>
-	<section class="header">
-		<h1>Jeffrey Nagy</h1>
-		<!--about protfolio contact-->
-		<a href="about.html">About
-		<a href="protfolio.html">Portfolio
-		<a href="contact.html">Contact
-	</section>
-
 	<section class="conBox">
 		<h2>Contact</h2>
-			
-			Name
-			<!--entry field for name -->
-			Email
-			<!--entry field for name -->
-			Message
-			<!--entry field for name -->
-	</section>
+		<hr></hr>
+		<form action="/action_page.php">
+			Name <br>
+			<input type="text" name="FirstName" value="John Smith"><br>
+			Email <br>
+			<input type="text" name="email" value="example@email.com"><br>
+			Message <br>
+			<input id="mess" type="text" name="Message" value=" "><br>
+			<input type="submit" value="Submit">
+		</form>
 
-	<section class="social">
+	</section>
+	
+	<nav>
 		<h3>Connect with Me</h3>
-			<img class="mediaIcon" src="assets/image/github512" href="https://github.com/nagyja" alt="github">
-			<img class="mediaIcon" src="assets/image/squarelinkedin512" href="https://www.linkedin.com/in/jeffreynagy1" alt="linkedin">
-			<img class="mediaIcon" src="assets/image/stackoverflow" href="someplace@gmail.com" alt="stackoverflow">
-	</section>
-
+		<hr></hr>
+		<div class="social">
+			<a  href="https://github.com/nagyja"><img id="git" class="mediaIcon" src="assets/images/github-512.png"  alt="github"></a>
+			<a  href="https://www.linkedin.com/in/jeffreynagy1"><img id="linked" class="mediaIcon" src="assets/images/square-linkedin-512.png"  alt="linkedin"></a>
+			<a  href="  ""><img id="git" class="mediaIcon" src="assets/images/stack-overflow.png"  alt="stackoverflow"></a>
+		</div>
+	</nav>
 <body>
 
-
+<footer>
+	<strong>&#169 Copyright Jeffrey Nagy 2017</strong>
+</footer>
 </html>
